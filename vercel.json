@@ -1,12 +1,6 @@
 {
   "buildCommand": "npm run vercel-build",
   "framework": "nextjs",
-  "env": {
-    "GOOGLE_API_KEY": {
-      "description": "Google Generative AI API Key from https://aistudio.google.com/app/apikeys"
-    }
-  },
-  "envDescription": "Required environment variables for production",
   "regions": ["iad1"],
   "functions": {
     "app/api/**": {
