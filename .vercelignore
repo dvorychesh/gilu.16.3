@@ -1,0 +1,41 @@
+# Environment (kept in Vercel console)
+.env.local
+.env.*.local
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Dependencies (built fresh)
+node_modules
+package-lock.json
+
+# Docs
+README.md
+QUICK_START.md
+DEPLOY.md
+*.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Development
+.next/local
+
+# Unneeded files
+*.docx
+*.xlsx
+extracted_content.txt

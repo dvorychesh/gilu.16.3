@@ -110,13 +110,21 @@ gilu16.3/
 
 ## 🏗️ Build & Deploy
 
-```bash
-# Build for production
-npm run build
+### Local Production Build
 
-# Start production server
+```bash
+npm run build
 npm start
 ```
+
+### Deploy to Vercel (Recommended)
+
+```bash
+npm install -g vercel
+vercel deploy --prod
+```
+
+See [DEPLOY.md](DEPLOY.md) for complete instructions.
 
 ## 📝 Environment Variables
 

@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "Holistic Student Profile with AI",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3000",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "check-env": "node scripts/check-env.js",
+    "vercel-build": "npm run check-env && next build"
   },
   "dependencies": {
     "react": "^19.0.0",
